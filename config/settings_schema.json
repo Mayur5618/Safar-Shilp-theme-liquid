@@ -1,0 +1,60 @@
+[
+  {
+    "name": "theme_info",
+    "theme_name": "Milana - Multipurpose Fashion & Swimwear",
+    "theme_version": "2.0.0",
+    "theme_author": "Senior Shopify Theme Engineer",
+    "theme_documentation_url": "https://nov-milana.myshopify.com",
+    "theme_support_url": "https://nov-milana.myshopify.com"
+  },
+  {
+    "name": "Colors",
+    "settings": [
+      {
+        "type": "color",
+        "id": "color_primary",
+        "label": "Primary Accent Color",
+        "default": "#FF4747"
+      },
+      {
+        "type": "color",
+        "id": "color_dark",
+        "label": "Dark Text / Headings",
+        "default": "#111111"
+      },
+      {
+        "type": "color",
+        "id": "color_bg",
+        "label": "Main Background",
+        "default": "#FFFFFF"
+      }
+    ]
+  },
+  {
+    "name": "Typography",
+    "settings": [
+      {
+        "type": "font_picker",
+        "id": "font_heading",
+        "label": "Heading Font",
+        "default": "work_sans_n7"
+      },
+      {
+        "type": "font_picker",
+        "id": "font_body",
+        "label": "Body Font",
+        "default": "work_sans_n4"
+      }
+    ]
+  },
+  {
+    "name": "Favicon",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "favicon",
+        "label": "Favicon Image"
+      }
+    ]
+  }
+]

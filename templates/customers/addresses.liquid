@@ -1,0 +1,12 @@
+<div class="container" style="max-width: 800px; margin: 50px auto; padding: 0 20px;">
+  <h1 style="font-size: 28px; margin-bottom: 20px;">Your Addresses</h1>
+  <a href="/account" style="color: #777; text-decoration: none;">&larr; Back to Account</a>
+  <div style="margin-top: 30px;">
+    {%- for address in customer.addresses -%}
+      <div style="background: #fafafa; padding: 20px; border-radius: 8px; margin-bottom: 15px;">
+        {%- if address == customer.default_address -%}<span style="background: #111; color: #fff; font-size: 11px; padding: 3px 8px; border-radius: 3px;">DEFAULT</span>{%- endif -%}
+        <p style="margin-top: 10px;">{{ address.name }}<br>{{ address.address1 }}<br>{{ address.city }}, {{ address.province_code }} {{ address.zip }}<br>{{ address.country }}</p>
+      </div>
+    {%- endfor -%}
+  </div>
+</div>

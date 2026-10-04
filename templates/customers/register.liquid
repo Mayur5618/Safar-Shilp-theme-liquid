@@ -1,0 +1,23 @@
+<div class="container" style="max-width: 480px; margin: 60px auto; padding: 30px; background: #fff; border: 1px solid #eee; border-radius: 8px;">
+  <h1 style="font-size: 26px; text-align: center; margin-bottom: 24px;">Create Account</h1>
+  {% form 'create_customer' %}
+    {{ form.errors | default_errors }}
+    <div style="margin-bottom: 15px;">
+      <label style="display:block; margin-bottom: 6px; font-weight: 500;">First Name</label>
+      <input type="text" name="customer[first_name]" style="width: 100%; height: 46px; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+    </div>
+    <div style="margin-bottom: 15px;">
+      <label style="display:block; margin-bottom: 6px; font-weight: 500;">Last Name</label>
+      <input type="text" name="customer[last_name]" style="width: 100%; height: 46px; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+    </div>
+    <div style="margin-bottom: 15px;">
+      <label style="display:block; margin-bottom: 6px; font-weight: 500;">Email Address</label>
+      <input type="email" name="customer[email]" required style="width: 100%; height: 46px; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+    </div>
+    <div style="margin-bottom: 20px;">
+      <label style="display:block; margin-bottom: 6px; font-weight: 500;">Password</label>
+      <input type="password" name="customer[password]" required style="width: 100%; height: 46px; padding: 10px; border: 1px solid #ddd; border-radius: 4px;">
+    </div>
+    <button type="submit" style="width: 100%; height: 48px; background: #111; color: #fff; border: none; border-radius: 4px; font-weight: 600; cursor: pointer;">CREATE MY ACCOUNT</button>
+  {% endform %}
+</div>

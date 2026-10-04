@@ -1,0 +1,26 @@
+{
+  "general": {
+    "password_page": {
+      "opening_soon": "Opening Soon",
+      "login_form_heading": "Enter store using password:",
+      "login_password_button": "Enter using password"
+    },
+    "continue_shopping": "Continue Shopping",
+    "search": "Search"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "Add to Cart",
+      "sold_out": "Sold Out",
+      "unavailable": "Unavailable",
+      "regular_price": "Regular price",
+      "sale_price": "Sale price"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "Here's your {{ value }} gift card for {{ shop }}!",
+      "subtext": "Use this code at checkout to redeem your gift card."
+    }
+  }
+}

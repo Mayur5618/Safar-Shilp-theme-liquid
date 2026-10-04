@@ -1,0 +1,25 @@
+{
+  "sections": {
+    "hero_slider": {
+      "type": "hero-slider",
+      "settings": {
+        "subheading": "New Season 2026",
+        "heading": "Summer Sensations & Coastal Vibes",
+        "description": "Explore our handcrafted collection of premium swimwear, breezy resort pieces, and summer essentials.",
+        "button_label": "Shop Collection",
+        "button_link": "/collections/all"
+      }
+    },
+    "featured_collection": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Trending Now",
+        "products_to_show": 8
+      }
+    }
+  },
+  "order": [
+    "hero_slider",
+    "featured_collection"
+  ]
+}
